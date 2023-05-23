@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
         <section className={utilStyles.headingMd}>
           <p>
             {" "}
-            Hi, I am <b>Yash</b>, a Computer Science undergrad at IIT Guwahati, SDE intern at
+            Hey, I am <b>Yash</b>, a Computer Science undergrad at IIT Guwahati, SDE intern at
             Cure.fit. Reach me out at <Link href={'https://www.linkedin.com/in/yash-garg-055032202/'}>LinkedIn</Link>, or <Link href={'https://www.instagram.com/__its.yash__/'}>Instagram</Link>
           </p>
         </section>
