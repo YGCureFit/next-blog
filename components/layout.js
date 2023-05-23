@@ -3,7 +3,6 @@ import Link from "next/link";
 import styles from "./layout.module.css";
 import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
-import Navbar from "./navbar";
 
 const Name = "Yash Garg";
 export const siteTitle = "Yash's Blog";
@@ -22,7 +21,6 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Navbar></Navbar>
       <header className={styles.header}>
         {home ? (
           <>
